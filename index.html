@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vanguard Transit LLC</title>
+        <link rel="icon" href="logo/icon-png.png" type="logo">
+        <meta name="description" content="Vanguard transit LLC - 6 years of experience in freight carrier/shipping, partners with Amazon, dat, 123 loadboard.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Montserrat">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- HEADER - NAVBAR section -->
+        <header>        
+            <a id="home" onclick="scrollToHome()" class="logo"><img src="logo/vanguard logo.png" alt="" ></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a id="home" onclick="scrollToHome()">Home</a></li>
+                    <li><a onclick="about(event)">About</a></li>
+                    <li><a onclick="servicesSc(event)">Category</a></li>
+                    <li><a onclick="shippingSc(event)">Services</a></li>
+                    <li><a onclick="submitSc(event)">Submit</a></li>
+                </ul>
+            </nav>
+            <a class="cta" onclick="contactUs()">Contact</a>
+            <div  class="contact-us1"><h2 id="contact"></h2></div>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a onclick="home()">Home</a>
+                <a onclick="about(event)">About</a>
+                <a onclick="servicesSc(event)">Category</a>
+                <a onclick="shippingSc(event)">Services</a>
+            </div>
+        </div>
+
+        <!-- Intro section -->
+        <main>
+            <section  class="background">
+                <div class="main-container">
+                    <div class="container-1">
+                        <p class="v-style">Vanguard Transit Inc</p>
+                        <h2>Safest logistics <br> Solutions <br>Provider With Intergnity</h2>
+                    </div>
+                    <div class="button-1">
+                        <button onclick="about(event)" >Quick start</button>
+                   </div>
+                </div>               
+            </section>
+        <section>
+            <!-- Section  2 -->
+            <div class="container-sec-2">
+                <div class="button-sec2">
+                    <h2>What do we do?</h2>
+                    </div> 
+                    <div id="about-us"></div>
+                <div class="button-h2-sec2">
+                    <h2>The services we offer</h2>
+                </div>
+            <div class="undraw1" >
+                <div class="container-div-flex">
+                    <div class="div-for-draw-1"  >
+                        <img src="photos/undraw2.png" alt="">
+                            <div class="undraw1-h2">
+                                <p>Efficient freight hauling across diverse routes, ensuring timely delivery and client satisfaction.</p>
+                            </div>
+                        </div>
+                    <div class="div-for-draw-1">
+                        <img src="photos/undraw3.png" alt="">
+                            <div class="undraw1-h2">
+                                <p>Streamlined coordination for cargo movement, optimizing routes and schedules for cost-effective solutions.</p>
+                            </div>
+                        </div>
+                    <div class="div-for-draw-1">
+                        <img src="photos/undraw_Destination_re_sr74.png" alt="" >
+                            <div class="undraw1-h2">
+                                <p>Prioritizing strict adherence to safety protocols, fostering trust with clients and stakeholders.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="container-div-flex">
+                    <div class="div-for-draw-1" >
+                        <img src="photos/draw6.png" alt="">
+                            <div class="undraw1-h2">
+                                <p>Dedicated support for clients, resolving queries and ensuring seamless communication throughout the shipment process.</p>
+                            </div>
+                        </div>
+                    <div class="div-for-draw-1">
+                        <img src="photos/draw7.svg" alt="">
+                            <div class="undraw1-h2">
+                                <p>Leveraging cutting-edge systems for real-time tracking and efficient fleet management.</p>
+                            </div>
+                        </div>
+                    <div class="div-for-draw-1">
+                        <img src="photos/draw8.png" alt="">
+                            <div class="undraw1-h2">
+                                <p>Commitment to eco-friendly practices, minimizing environmental impact through fuel efficiency and green initiatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 
+                 <div class="button-sec-3">
+                    <h2 onclick="shippingSc(event)">Explore more</h2>
+                 </div>
+            </div>
+        </section>
+        <!-- section 3  meet our team -->
+        <div class="container-sec-3">
+            <div class="button-h3-sec2" id="services">
+                <h2>Ship with us</h2>
+            </div>
+            <div class="container">
+                <div class="images-sec3">
+                    <img src="photos/sprinter.png" alt="">
+                </div>
+                <div class="images-sec3">
+                    <img  src="photos/lrg-card (1) (1) (1).png" alt="">
+                </div>
+                <div class="images-sec3">
+                    <img src="photos/lrg-card (1).png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- Section 4 -->
+        <div class="button-sec2">
+            <h2>Services</h2>
+        </div> 
+        <div class="sec-4-h2" id="shipping">
+            <h2>Why choose us?</h2>
+        </div>
+        <div class="wrapper">
+            <img src="photos/driver.smiling.jpeg" alt="" >
+            <div class="text-sec4"></div>
+            <p class="p-s4">At Vanguard Transit INC, we understand the <span class="red">critical importance of reliable and timely deliveries</span> Our commitment to punctuality ensures that <span class="red">your goods reach their destination safely and on schedule.</span>  We utilize advanced tracking systems and efficient route planning to <span class="red">minimize delays and optimize delivery times.</span> 
+                Moreover, our team comprises dedicated professionals who are trained to handle all aspects of the transportation process with precision and care. From loading and unloading to navigating complex logistics, <br> we prioritize the safety and security of your cargo every step of the way. <br>At Vanguard Transit INC, we are committed to providing unparalleled customer service and building long-term relationships based on trust and reliability. <br> When you choose us, you can rest assured that your shipments are in capable hands, allowing you to focus on what matters most – growing your business.
+                </p>
+        </div>
+        <h2 class="h2-bg-s5">6 years of experience as a carrier company</h2>
+        <div class="container-s5">     
+            <div>              
+                </div>
+            </div>
+            <!-- company logos we are working for -->
+            
+            <div class="background-s5">
+                <div class="comapnies-logos-container">
+                    <div class="comapnies-logo">
+                        <img src="photos/123Loadboard-logo.png" alt="" >
+                        <img src="photos/solera.png" alt="">
+                        <img src="photos/jphunt.png" alt="">
+                        <img src="photos/Amazon_logo.svg.webp" alt="" >
+                        <div ></div>               
+            </div>
+        </div>
+    </div>
+    <!-- submit section -->
+    </div>
+    <main>
+        <section  class="background-2">
+                <div class="main-container-1">
+                    <div class="container-11">
+                        <p class="v-style-1">Welcome to Vanguard Transit Inc</p>
+                        <h2  class="h2-text1">Hiring now! Submit Your Form here</h2>
+                        <div class="input">
+                            <div class="in-3container">
+                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Phone" required>
+                                <input type="text" placeholder="Email" required>
+                            </div>
+                            <div class="in-4container">
+                            <select id="Your position">
+                                <option value="" selected disabled>Select One</option>
+                                <option value="customer">Customer</option>
+                                <option value="Driver">Driver</option>
+                                <option value="Shipper">Shipper</option>
+                                <option value="Broker">Broker</option>
+                            </select>
+                            <select id="Your position">
+                                <option value="" selected disabled>Select One</option>
+                                <option value="">support service</option>
+                                <option value="">Dispatch service</option>
+                                <option value="">Tracking service</option>
+                            </select>
+                            <input  type="submit" value="Submit" class="submit" onclick="submit()">
+                        </div >
+                        <div id="submitdoc"></div>
+                    </div>
+                </div>
+              
+            </section>
+        </main>
+
+
+
+
+
+
+        <!-- scripts-->
+        <script src="script.js"></script>
+
+    </body>
+</html>
