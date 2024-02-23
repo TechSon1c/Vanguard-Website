@@ -569,6 +569,10 @@ p {
   font-weight: 100;
   display: inline-block;
   margin: 50px;
+  background: rgba(0, 0, 0, 0.454);
+  padding: 15px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-radius: 20px;
   
 }
 
@@ -577,6 +581,59 @@ p {
   font-family: sans-serif;
   font-weight: 100;
   margin: 50px;
+}
+
+
+/* socials section */
+.socials h2 {
+  color: white;
+  text-align: start;
+  background-color: red;
+  max-width:200px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  
+}
+
+.socials a {
+  text-decoration: none;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.linked h2 {
+  padding: 20px;
+  background-color: rgb(39, 51, 88);
+  border-radius: 20px;
+  font-size: 22px;
+  padding: 20px;
+  
+}
+
+.fb h2{
+  border-radius: 20px;
+  background-color: rgb(23, 23, 159);
+  font-size: 20px;
+  padding: 20px;
+  
+}
+
+.insta h2{
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 
